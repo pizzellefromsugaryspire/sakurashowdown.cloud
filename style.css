@@ -1,0 +1,116 @@
+body {
+    background-image: url('assets/background.png');
+    background-size: cover;
+    line-height: 1.25;
+    background-attachment: fixed;
+    font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'Tahoma', 'sans-serif';
+}
+header{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+a{
+    color: #d12929;
+}
+
+div{
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.entry-header{
+    position: relative;
+    padding-left: 85px;
+    background-color: rgb(245, 153, 153);
+    color: black;
+    padding: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.entry-header h2{
+    margin: 0;
+}
+.entry-meta {
+    font-size: 0.75em;
+}
+
+.entry-content{
+    padding: 0 20px 20px 20px;
+    margin: 0;
+    background-color: #FFD045;
+    z-index: 25;
+    position: relative;
+    color: #ff3950;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.interview-dialogue{
+    padding: 8px;
+    margin: 16px;
+    background-color: #FE7243;
+    border-radius: 28px;
+    position: relative;
+    word-wrap: break-word;
+    color: black
+}
+.interview-dialogue p{
+    padding: 8px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 0px;
+}
+.interview-dialogue a.icon{
+    display: block;
+    width: 48px;
+    height: 44px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 4px;
+}
+.interview-dialogue.interview-dialogue-left p{
+    margin-left: 8px;
+}
+.interview-dialogue.interview-dialogue-left a.icon{
+    left: 15px;
+}
+.interview-dialogue.interview-dialogue-left{
+    padding-left: 4em;
+    margin-right: 20%;
+    align-self: start;
+}
+
+.interview-dialogue.interview-dialogue-right p{
+    margin-left: 8px;
+}
+.interview-dialogue.interview-dialogue-right a.icon{
+    right: 15px;
+}
+.interview-dialogue.interview-dialogue-right{
+    padding-right: 4em;
+    margin-left: 20%;
+    align-self: start;
+}
+.entry-footer {
+    background-color: #d12929;
+    display: block;
+    min-height: 30px;
+    border-radius: 15px;
+    position: relative;
+    z-index: 20;
+    top: -25px;
+    max-width: 843px;
+    margin: 0 auto;
+}
+.logo img{
+    width: 420px;
+    height: auto;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
