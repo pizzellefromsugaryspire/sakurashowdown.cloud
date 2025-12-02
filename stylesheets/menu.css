@@ -1,0 +1,305 @@
+body {
+    background-color: #ae98d1;
+    background-size: cover;
+    line-height: 1.25;
+    background-attachment: fixed;
+    font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'Tahoma', 'sans-serif';
+}
+header{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+a{
+    color: #ffbcfb;
+}
+
+div{
+    display: block;
+    unicode-bidi: isolate;
+}
+
+img{
+    height: auto;
+    max-width: 100%;
+    border-style: none;
+}
+.entry-header{
+    position: relative;
+    padding-left: 85px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.entry-header h2{
+    margin: 0;
+}
+.entry-meta {
+    font-size: 0.75em;
+}
+
+#entry-content{
+    padding: 0 20px 20px 20px;
+    margin: 0;
+    background-color: #A47DE3;
+    z-index: 25;
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#season1content{
+    padding: 0 20px 20px 20px;
+    margin: 0;
+    background-color: #FFD045;
+    z-index: 25;
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#season-2content{
+    padding: 0 20px 20px 20px;
+    margin: 0;
+    background-color: #A47DE3;
+    z-index: 25;
+    position: relative;
+    color: #fad4ff;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#season-1content{
+    padding: 0 20px 20px 20px;
+    margin: 0;
+    background-color: #C17A90;
+    z-index: 25;
+    position: relative;
+    color: #dfdfdf;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#season0content{
+    padding: 0 20px 20px 20px;
+    margin: 0;
+    background-color: #a5a1a3;
+    z-index: 25;
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#season2content{
+    padding: 0 20px 20px 20px;
+    margin: 0;
+    background-color: #099979;
+    z-index: 25;
+    position: relative;
+    color: #30f392;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    border-bottom-left-radius: 10px;
+
+    border-bottom-right-radius: 10px;
+}
+
+.interview-dialogue{
+    padding: 8px;
+    margin: 16px;
+    background-color: #FE7243;
+    border-radius: 28px;
+    position: relative;
+    word-wrap: break-word;
+    color: black
+}
+
+#season-2content .interview-dialogue{
+    background-color: #F57CF2;
+}
+
+#season-1content .interview-dialogue{
+    background-color: #B9B9C2;
+}
+
+#season0content .interview-dialogue{
+    background-color: #c8c8cf;
+}
+
+#season2content .interview-dialogue{
+    background-color: #1ac971;
+}
+
+.interview-dialogue p{
+    padding: 8px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 0px;
+}
+.interview-dialogue a.icon{
+    display: block;
+    width: 48px;
+    height: 44px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 4px;
+}
+.interview-dialogue.interview-dialogue-left p{
+    margin-left: 8px;
+}
+.interview-dialogue.interview-dialogue-left a.icon{
+    left: 15px;
+}
+.interview-dialogue.interview-dialogue-left{
+    padding-left: 4em;
+    margin-right: 20%;
+    align-self: start;
+}
+
+.interview-dialogue.interview-dialogue-right p{
+    margin-left: 8px;
+}
+.interview-dialogue.interview-dialogue-right a.icon{
+    right: 15px;
+}
+.interview-dialogue.interview-dialogue-right{
+    padding-right: 4em;
+    margin-left: 20%;
+    align-self: start;
+}
+
+.interview-dialogue.interview-dialogue-center p{
+    margin-left: 8px;
+}
+.interview-dialogue.interview-dialogue-center a.icon{
+    left: 15px;
+}
+.interview-dialogue.interview-dialogue-center{
+    padding-left: 4em;
+    align-self: start;
+}
+.entry-footer {
+    background-color: #d12929;
+    display: block;
+    min-height: 30px;
+    border-radius: 15px;
+    position: relative;
+    z-index: 20;
+    top: -25px;
+    max-width: 843px;
+    margin: 0 auto;
+}
+#thelogo img{
+    max-height: 180px
+}
+
+#overhead{
+    position: relative;
+    z-index: 10;
+    padding: 20px 20px 40px;
+    text-align: center;
+}
+
+#pmenu{
+    float: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+@media screen and (max-width: 800px){
+    #pmenu{
+        margin: 10px auto;
+        width: 230px;
+    }
+    #thelogo, #pmenu{
+        float: none;
+    }
+}
+
+ul{
+    list-style: disc;
+}
+
+#pmenu li a{
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+}
+
+#pmenu li{
+    list-style: none;
+}
+
+#pmenu li a div:first-child {
+    background-color: #faebfc;
+}
+
+#pmenu li a img.one {
+    opacity: 1;
+}
+
+#pmenu li a img.two {
+    opacity: 0;
+}
+
+#pmenu li a img {
+    width: 32px;
+    position: absolute;
+    top: 9px;
+    left: 6px;
+}
+
+#pmenu li a div {
+	display: block;
+	width: 220px;
+	text-align: right;
+	margin: 11px 4px 2px;
+	border-radius: 15px;
+	color: black;
+	font-weight: bold;
+	font-size: 1.5em;
+	padding: 10px;
+	position: relative;
+	z-index: 30;
+}
+
+#pmenu li a:hover div:first-child {
+	background-color: #A47DE3;
+}
+
+#pmenu li a:active div:first-child {
+    background-color: #6d5c8a;
+}
+
+#pmenu li a:hover img.one, #pmenu li a:active img.two {
+	opacity: 0;
+}
+#pmenu li a:hover img.two, #pmenu li a:active img.one {
+	opacity: 1;
+}
+#seasonbutton{
+    max-height: 200px;
+}
+
+#season-1content #seasonbutton{
+    max-height: 250px;
+}
+
+
+#season1content h1{
+    color: #ff3950;
+}
